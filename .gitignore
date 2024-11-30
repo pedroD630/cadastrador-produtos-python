@@ -1,0 +1,16 @@
+.breakpoints
+# Ignorar ambientes virtuais
+venv/
+venv (deactivated)/
+.venv/
+ENV/
+env/
+.pythonlibs/
+.upm/
+# Ignorar caches do Poetry
+.cache/
+.mypy_cache/
+# Ignorar outros arquivos gerados automaticamente
+__pycache__/
+*.py[cod]
+*.sql
